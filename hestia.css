@@ -62,9 +62,15 @@ header {
   color: rgb(255, 255, 255);
 }
 
+.link{
+  display: flex;
+  align-items: center;
+}
+
 .navbar .links {
   display: flex;
   gap: 2rem;
+  padding-right: 20px;
 }
 
 .navbar .toggle_btn {
